@@ -1,0 +1,365 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Matas Dailyda <matas@dailyda.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-06 12:33+0000\n"
+"PO-Revision-Date: 2017-03-01 08:27+0000\n"
+"Last-Translator: Matas Dailyda <matas@dailyda.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/torchbox/wagtail/language/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: blocks/static_block.py:17
+#, python-brace-format
+msgid "{label}: this block has no options."
+msgstr "{label}: šis blokas neturi jokių nustatymų."
+
+#: blocks/static_block.py:19
+msgid "This block has no options."
+msgstr "Šis blokas neturi jokių nustatymų."
+
+#: forms.py:9
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: forms.py:19
+msgid "The password you have entered is not correct. Please try again."
+msgstr "Slaptažodis kurį suvedėte yra neteisingas. Bandykite dar kartą."
+
+#: models.py:60
+msgid "hostname"
+msgstr "svetainės kompiuterio vardas"
+
+#: models.py:62
+msgid "port"
+msgstr "prievadas"
+
+#: models.py:65
+msgid ""
+"Set this to something other than 80 if you need a specific port number to "
+"appear in URLs (e.g. development on port 8000). Does not affect request "
+"handling (so port forwarding still works)."
+msgstr "Nustatykite į ką nors kitko nei 80 jei reikia specifinio prievado numerio, kuris būtų atvaizduojamas URLs (pvz. vystymas 8000 prievade). Neįtakoja užklausų apdorojimo (prievadų peradresavimas vis dar veikia)."
+
+#: models.py:70
+msgid "site name"
+msgstr "tinklalapio pavadinimas"
+
+#: models.py:74
+msgid "Human-readable name for the site."
+msgstr "Skaitymui/atvaizdavimui skirtas tinklalapio pavadinimas."
+
+#: models.py:76
+msgid "root page"
+msgstr "šakninis puslapis"
+
+#: models.py:78
+msgid "is default site"
+msgstr "yra numatytasis tinklalapis"
+
+#: models.py:81
+msgid ""
+"If true, this site will handle requests for all other hostnames that do not "
+"have a site entry of their own"
+msgstr "Jei taip, šis tinklalapis apdoros visų kitų svetainės kompiuterio vardų užklausas kurios turi suvestus tinklalapius"
+
+#: models.py:89
+msgid "site"
+msgstr "tinklalapis"
+
+#: models.py:90
+msgid "sites"
+msgstr "tinklalapiai"
+
+#: models.py:194
+#, python-format
+msgid ""
+"%(hostname)s is already configured as the default site. You must unset that "
+"before you can save this site as default."
+msgstr "%(hostname)s jau nustatytas kaip numatytasis tinklalapis. Reikia panaikinti tą nustatymą kad galėtumėte išsaugoti ši tinklalapį kaip numatytąjį."
+
+#: models.py:302
+msgid "title"
+msgstr "pavadinimas"
+
+#: models.py:304
+msgid "The page title as you'd like it to be seen by the public"
+msgstr "Puslapio pavadinimas kuris bus atvaizduojamas viešai"
+
+#: models.py:309 models.py:316
+msgid "slug"
+msgstr "Adreso trumpinys"
+
+#: models.py:312 models.py:318
+msgid ""
+"The name of the page as it will appear in URLs e.g http://domain.com/blog"
+"/[my-slug]/"
+msgstr "Puslapio pavadinimas kuris bus atvaizduojamas URL pvz http://domain.com/blog/[my-slug]/"
+
+#: models.py:322
+msgid "content type"
+msgstr "turinio tipas"
+
+#: models.py:326 models.py:1025
+msgid "live"
+msgstr "veikiantis"
+
+#: models.py:328
+msgid "has unpublished changes"
+msgstr "turi nebepublikuojamų pakeitimų"
+
+#: models.py:332
+msgid "URL path"
+msgstr "URL kelias"
+
+#: models.py:335
+msgid "owner"
+msgstr "valdytojas"
+
+#: models.py:344
+msgid "page title"
+msgstr "puslapio pavadinimas"
+
+#: models.py:347
+msgid ""
+"Optional. 'Search Engine Friendly' title. This will appear at the top of the"
+" browser window."
+msgstr "Nebūtina. 'Paieškos varikliams draugiškas' pavadinimas. Tai bus atvaizduojama naršyklės lango viršuje."
+
+#: models.py:350
+msgid "show in menus"
+msgstr "rodyti meniu elementuose"
+
+#: models.py:352
+msgid ""
+"Whether a link to this page will appear in automatically generated menus"
+msgstr "Ar nuoroda į šį puslapį bus atvaizduojama automatiškai sugeneruotose meniu"
+
+#: models.py:354
+msgid "search description"
+msgstr "paieškos apibūdinimas"
+
+#: models.py:357
+msgid "go live date/time"
+msgstr "veikimo įjungimo data/laikas"
+
+#: models.py:358 models.py:364
+msgid "Please add a date-time in the form YYYY-MM-DD hh:mm."
+msgstr "Prašome pridėti datos-laiką formoje YYYY-MM-DD hh:mm."
+
+#: models.py:363
+msgid "expiry date/time"
+msgstr "galiojimo pabaigos data/laikas"
+
+#: models.py:368 models.py:1016
+msgid "expired"
+msgstr "baigė galioti"
+
+#: models.py:370
+msgid "locked"
+msgstr "Užrakintas"
+
+#: models.py:373
+msgid "first published at"
+msgstr "pirmą kartą publikuotas"
+
+#: models.py:379
+msgid "latest revision created at"
+msgstr "paskutinė revizija sukurta"
+
+#: models.py:480
+msgid "This slug is already in use"
+msgstr "Šis adreso trumpinys jau naudojamas"
+
+#: models.py:1018
+msgid "scheduled"
+msgstr "planuotas"
+
+#: models.py:1020
+msgid "draft"
+msgstr "juodraštis"
+
+#: models.py:1023
+msgid "live + draft"
+msgstr "veikiantis + juodraštis"
+
+#: models.py:1276
+msgid "Default"
+msgstr "Numatytasis"
+
+#: models.py:1384 models.py:1417 models.py:1561 models.py:1840
+msgid "page"
+msgstr "puslapis"
+
+#: models.py:1385
+msgid "pages"
+msgstr "puslapiai"
+
+#: models.py:1419
+msgid "submitted for moderation"
+msgstr "pateikta moderavimui"
+
+#: models.py:1423
+msgid "created at"
+msgstr "sukurta"
+
+#: models.py:1425
+msgid "user"
+msgstr "vartotojas"
+
+#: models.py:1428
+msgid "content JSON"
+msgstr "turinys JSON"
+
+#: models.py:1429
+msgid "approved go live at"
+msgstr "patvirtintas įjungimas"
+
+#: models.py:1540
+msgid "page revision"
+msgstr "puslapio revizija"
+
+#: models.py:1541
+msgid "page revisions"
+msgstr "puslapio revizijos"
+
+#: models.py:1545
+msgid "Add"
+msgstr "Pridėti"
+
+#: models.py:1545
+msgid "Add/edit pages you own"
+msgstr "Pridėti/redaguoti puslapius kurie jums priklauso"
+
+#: models.py:1546
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: models.py:1546
+msgid "Edit any page"
+msgstr "Redaguoti bet kurį puslapį"
+
+#: models.py:1547
+msgid "Publish"
+msgstr "Publikuoti"
+
+#: models.py:1547
+msgid "Publish any page"
+msgstr "Publikuoti bet kurį puslapį"
+
+#: models.py:1548
+msgid "Bulk delete"
+msgstr "Didelio kiekio trinimas"
+
+#: models.py:1548
+msgid "Delete pages with children"
+msgstr "Trinti puslapius su vidiniais puslapiais"
+
+#: models.py:1549
+msgid "Lock"
+msgstr "Užrakinti"
+
+#: models.py:1549
+msgid "Lock/unlock any page"
+msgstr "Užrakinti/atrakinti bet kurį puslapį"
+
+#: models.py:1560 models.py:1941
+msgid "group"
+msgstr "grupė"
+
+#: models.py:1563
+msgid "permission type"
+msgstr "leidimo tipas"
+
+#: models.py:1570
+msgid "group page permission"
+msgstr "grupės puslapio leidimas"
+
+#: models.py:1571
+msgid "group page permissions"
+msgstr "grupės puslapio leidimai"
+
+#: models.py:1831
+msgid "Public"
+msgstr "Viešas"
+
+#: models.py:1832
+msgid "Private, accessible to logged-in users"
+msgstr "Privatu, pasiekiama tik prisijungusiems vartotojams"
+
+#: models.py:1833
+msgid "Private, accessible with the following password"
+msgstr "Privatu, pasiekiama su žemiau pateiktu slaptažodžiu"
+
+#: models.py:1834
+msgid "Private, accessible to users in specific groups"
+msgstr "Privatu, pasiekiama specifinėse grupėse esantiems vartotojams"
+
+#: models.py:1842
+msgid "password"
+msgstr "slaptažodis"
+
+#: models.py:1865
+msgid "page view restriction"
+msgstr "puslapio peržiūros apribojimas"
+
+#: models.py:1866
+msgid "page view restrictions"
+msgstr "puslapio peržiūros apribojimai"
+
+#: models.py:1882
+msgid "name"
+msgstr "pavadinimas"
+
+#: models.py:1905 models.py:1920 models.py:1947
+msgid "collection"
+msgstr "kolekcija"
+
+#: models.py:1906
+msgid "collections"
+msgstr "kolekcijos"
+
+#: models.py:1953
+msgid "permission"
+msgstr "leidimai"
+
+#: models.py:1966
+msgid "group collection permission"
+msgstr "grupės kolekcijos leidimas"
+
+#: templates/wagtailcore/login.html:5 templates/wagtailcore/login.html:8
+#: templates/wagtailcore/login.html:21
+msgid "Log in"
+msgstr "Prisijungti"
+
+#: templates/wagtailcore/login.html:11
+msgid "Your username and password didn't match. Please try again."
+msgstr "Jūsų vartotojo vardas ir slaptažodis nesutampa. Prašome bandyti dar kartą."
+
+#: templates/wagtailcore/login.html:15
+msgid ""
+"Your account doesn't have access to this page. To proceed, please log in "
+"with an account that has access."
+msgstr "Jūsų vartotojas neturi leidimo pasiekti šio puslapio. Kad tęsti, prašome prisijungti su vartotoju kuris turi priėjimo teisę."
+
+#: templates/wagtailcore/password_required.html:5
+#: templates/wagtailcore/password_required.html:8
+msgid "Password required"
+msgstr "Reikalingas slaptažodis"
+
+#: templates/wagtailcore/password_required.html:9
+msgid "You need a password to access this page."
+msgstr "Jums reikia slaptažodžio kad pasiekti šį puslapį."
+
+#: templates/wagtailcore/password_required.html:13
+msgid "Continue"
+msgstr "Tęsti"

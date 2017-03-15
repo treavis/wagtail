@@ -1,0 +1,470 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Matas Dailyda <matas@dailyda.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-06 12:33+0000\n"
+"PO-Revision-Date: 2017-03-01 09:38+0000\n"
+"Last-Translator: Matas Dailyda <matas@dailyda.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/torchbox/wagtail/language/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: fields.py:13
+msgid "GIF, JPEG, PNG"
+msgstr "GIF, JPEG, PNG"
+
+#: fields.py:27
+#, python-format
+msgid ""
+"Supported formats: %(supported_formats)s. Maximum filesize: "
+"%(max_upload_size)s."
+msgstr "Palaikomi formatai:  %(supported_formats)s. Didžiausias bylos dydis:  %(max_upload_size)s."
+
+#: fields.py:34
+#, python-format
+msgid "Supported formats: %(supported_formats)s."
+msgstr "Palaikomi formatai:  %(supported_formats)s."
+
+#: fields.py:41
+#, python-format
+msgid "Not a supported image format. Supported formats: %s."
+msgstr "Nepalaikomas paveiksliuko formatas. Palaikomi formatai: %s."
+
+#: fields.py:45
+#, python-format
+msgid "Not a valid %s image."
+msgstr "Netinkamas %s paveiksliukas."
+
+#: fields.py:49
+#, python-format
+msgid "This file is too big (%%s). Maximum filesize %s."
+msgstr "Byla yra per didelė (%%s). Didžiausias bylos dydis yra %s."
+
+#: fields.py:53
+#, python-format
+msgid "This file is too big. Maximum filesize %s."
+msgstr "Byla yra per didelė. Didžiausias bylos dydis yra %s."
+
+#: formats.py:93
+msgid "Full width"
+msgstr "Pilno pločio"
+
+#: formats.py:94
+msgid "Left-aligned"
+msgstr "Lygiuoti į kairę"
+
+#: formats.py:95
+msgid "Right-aligned"
+msgstr "Lygiuoti į dešinę"
+
+#: forms.py:71
+msgid "Filter"
+msgstr "Filtras"
+
+#: forms.py:73
+msgid "Original size"
+msgstr "Originalus dydis"
+
+#: forms.py:74
+msgid "Resize to width"
+msgstr "Keisti dydį pagal plotį"
+
+#: forms.py:75
+msgid "Resize to height"
+msgstr "Keisti dydį pagal aukštį"
+
+#: forms.py:76
+msgid "Resize to min"
+msgstr "Keisti dydį iki minimumo"
+
+#: forms.py:77
+msgid "Resize to max"
+msgstr "Keisti dydį iki maksimumo"
+
+#: forms.py:78
+msgid "Resize to fill"
+msgstr "Keisti dydį kad užpildytų"
+
+#: forms.py:81
+msgid "Width"
+msgstr "Plotis"
+
+#: forms.py:82
+msgid "Height"
+msgstr "Aukštis"
+
+#: forms.py:83
+msgid "Closeness"
+msgstr "Artumas"
+
+#: forms.py:89
+msgid "Add"
+msgstr "Pridėti"
+
+#: forms.py:89
+msgid "Add/edit images you own"
+msgstr "Pridėti/redaguoti paveiksliukus kurie jums priklauso"
+
+#: forms.py:90 views/images.py:258
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: forms.py:90
+msgid "Edit any image"
+msgstr "Redaguoti bet kurį paveiksliuką"
+
+#: models.py:80
+msgid "title"
+msgstr "pavadinimas"
+
+#: models.py:82
+msgid "file"
+msgstr "byla"
+
+#: models.py:84
+msgid "width"
+msgstr "plotis"
+
+#: models.py:85
+msgid "height"
+msgstr "aukštis"
+
+#: models.py:86
+msgid "created at"
+msgstr "sukurta"
+
+#: models.py:88
+msgid "uploaded by user"
+msgstr "įkelta vartotojo"
+
+#: models.py:92
+msgid "tags"
+msgstr "žymenos"
+
+#: templates/wagtailimages/chooser/chooser.html:3 widgets.py:13
+msgid "Choose an image"
+msgstr "Pasirinkti paveiksliuką"
+
+#: templates/wagtailimages/chooser/chooser.html:8
+msgid "Search"
+msgstr "Paieška"
+
+#: templates/wagtailimages/chooser/chooser.html:9
+#: templates/wagtailimages/chooser/chooser.html:50
+msgid "Upload"
+msgstr "Įkelti"
+
+#: templates/wagtailimages/chooser/chooser.html:25
+msgid "Popular tags"
+msgstr "Populiarios žymenos"
+
+#: templates/wagtailimages/chooser/chooser.html:50
+msgid "Uploading..."
+msgstr "Įkeliama..."
+
+#: templates/wagtailimages/chooser/results.html:6
+#: templates/wagtailimages/images/results.html:6
+#, python-format
+msgid ""
+"\n"
+"            There is one match\n"
+"        "
+msgid_plural ""
+"\n"
+"            There are %(counter)s matches\n"
+"        "
+msgstr[0] "\nYra vienas atitikmuo"
+msgstr[1] "\nYra %(counter)s atitikmenys"
+msgstr[2] "\nYra %(counter)s atitikmenų"
+
+#: templates/wagtailimages/chooser/results.html:13
+#: templates/wagtailimages/images/results.html:15
+msgid "Latest images"
+msgstr "Paskutiniai paveiksliukai"
+
+#: templates/wagtailimages/chooser/select_format.html:3
+msgid "Choose a format"
+msgstr "Pasirinkti formatą"
+
+#: templates/wagtailimages/chooser/select_format.html:17
+msgid "Insert image"
+msgstr "Įterpti paveiksliuką"
+
+#: templates/wagtailimages/homepage/site_summary_images.html:5
+#, python-format
+msgid ""
+"\n"
+"        <span>%(total)s</span> Image\n"
+"    "
+msgid_plural ""
+"\n"
+"        <span>%(total)s</span> Images\n"
+"    "
+msgstr[0] "\n<span>%(total)s</span> paveiksliukas"
+msgstr[1] "\n<span>%(total)s</span> paveiksliukai"
+msgstr[2] "\n<span>%(total)s</span> paveiksliukų"
+
+#: templates/wagtailimages/images/_file_field.html:8
+msgid "Change image file:"
+msgstr "Keisti paveiksliuko bylą:"
+
+#: templates/wagtailimages/images/add.html:4
+#: templates/wagtailimages/images/index.html:27
+msgid "Add an image"
+msgstr "Pridėti paveiksliuką"
+
+#: templates/wagtailimages/images/add.html:20
+msgid "Add image"
+msgstr "Pridėti paveiksliuką"
+
+#: templates/wagtailimages/images/add.html:34
+#: templates/wagtailimages/images/edit.html:52
+msgid "Save"
+msgstr "Išsaugoti"
+
+#: templates/wagtailimages/images/confirm_delete.html:4
+#: templates/wagtailimages/images/confirm_delete.html:7
+#: templates/wagtailimages/images/edit.html:54
+msgid "Delete image"
+msgstr "Ištrinti paveiksliuką"
+
+#: templates/wagtailimages/images/confirm_delete.html:15
+msgid "Are you sure you want to delete this image?"
+msgstr "Ar tikrai norite ištrinti šį paveiksliuką?"
+
+#: templates/wagtailimages/images/confirm_delete.html:18
+msgid "Yes, delete"
+msgstr "Taip, ištrinti"
+
+#: templates/wagtailimages/images/edit.html:3
+#: templates/wagtailimages/images/url_generator.html:4
+#, python-format
+msgid "Editing image %(title)s"
+msgstr "Redaguojamas paveiksliukas %(title)s"
+
+#: templates/wagtailimages/images/edit.html:31
+msgid "Editing"
+msgstr "Redagavimas"
+
+#: templates/wagtailimages/images/edit.html:61
+msgid "Focal point (optional)"
+msgstr "Svarbiausias taškas (nebūtina)"
+
+#: templates/wagtailimages/images/edit.html:62
+msgid ""
+"To define this image's most important region, drag a box over the image "
+"below."
+msgstr "Kad nustatyti svarbiausią paveiksliuko zoną, žemiau tempkite dėžutę  virš paveiksliuko."
+
+#: templates/wagtailimages/images/edit.html:62
+msgid "Current focal point shown"
+msgstr "Rodomas dabartinis svarbiausias taškas"
+
+#: templates/wagtailimages/images/edit.html:81
+msgid "URL Generator"
+msgstr "URL generatorius"
+
+#: templates/wagtailimages/images/edit.html:88
+msgid "Max dimensions"
+msgstr "Didžiausi išmatavimai"
+
+#: templates/wagtailimages/images/edit.html:90
+msgid "Filesize"
+msgstr "Bylos dydis"
+
+#: templates/wagtailimages/images/edit.html:91
+msgid "File not found"
+msgstr "Byla nerasta"
+
+#: templates/wagtailimages/images/index.html:5
+#: templates/wagtailimages/images/index.html:24 wagtail_hooks.py:43
+#: wagtail_hooks.py:113
+msgid "Images"
+msgstr "Paveiksliukai"
+
+#: templates/wagtailimages/images/results.html:33
+#, python-format
+msgid "Sorry, no images match \"<em>%(query_string)s</em>\""
+msgstr "Atsiprašome, jokie paveiksliukai neatitiko <em>\"%(query_string)s\"</em>"
+
+#: templates/wagtailimages/images/results.html:39
+#, python-format
+msgid ""
+"You haven't uploaded any images in this collection. Why not <a "
+"href=\"%(wagtailimages_add_image_url)s\">upload one now</a>?"
+msgstr "Nėra įkelti jokie paveiksliukai į šią kolekciją. Kodėl gi <a href=\"%(wagtailimages_add_image_url)s\">neįkėlus vieno</a>?"
+
+#: templates/wagtailimages/images/results.html:41
+#, python-format
+msgid ""
+"You haven't uploaded any images. Why not <a "
+"href=\"%(wagtailimages_add_image_url)s\">upload one now</a>?"
+msgstr "Nėra įkelti jokie paveiksliukai. Kodėl gi <a href=\"%(wagtailimages_add_image_url)s\">neįkėlus vieno</a>?"
+
+#: templates/wagtailimages/images/url_generator.html:7
+msgid "Generating URL"
+msgstr "Generuojamas URL"
+
+#: templates/wagtailimages/images/url_generator.html:24
+msgid "URL"
+msgstr "URL"
+
+#: templates/wagtailimages/images/url_generator.html:27
+msgid "Preview"
+msgstr "Peržiūrėti"
+
+#: templates/wagtailimages/images/url_generator.html:33
+msgid ""
+"Note that images generated larger than the screen will appear smaller when "
+"previewed here, so they fit the screen."
+msgstr "Pastaba. Paveiksliukai, sugeneruoti didesni nei ekranas, peržiūrimi čia bus atvaizduojami mažesni, kad tilptų į ekraną."
+
+#: templates/wagtailimages/images/usage.html:3
+#, python-format
+msgid "Usage of %(title)s"
+msgstr "%(title)s naudojimas"
+
+#: templates/wagtailimages/images/usage.html:5
+msgid "Usage of"
+msgstr "Naudojimas"
+
+#: templates/wagtailimages/images/usage.html:16
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: templates/wagtailimages/images/usage.html:17
+msgid "Parent"
+msgstr "Tėvas"
+
+#: templates/wagtailimages/images/usage.html:18
+msgid "Type"
+msgstr "Tipas"
+
+#: templates/wagtailimages/images/usage.html:19
+msgid "Status"
+msgstr "Statusas"
+
+#: templates/wagtailimages/images/usage.html:26
+msgid "Edit this page"
+msgstr "Redaguoti šį puslapį"
+
+#: templates/wagtailimages/multiple/add.html:3
+msgid "Add multiple images"
+msgstr "Pridėti daug paveiksliukų"
+
+#: templates/wagtailimages/multiple/add.html:11
+msgid "Add images"
+msgstr "Pridėti paveiksliukus"
+
+#: templates/wagtailimages/multiple/add.html:16
+msgid "Drag and drop images into this area to upload immediately."
+msgstr "Tempkite ir meskite paveiksliukus į šią zoną, kad iškart juos įkeltumėte."
+
+#: templates/wagtailimages/multiple/add.html:21
+msgid "Or choose from your computer"
+msgstr "Arba rinkitės iš savo kompiuterio"
+
+#: templates/wagtailimages/multiple/add.html:27
+msgid "Add to collection:"
+msgstr "Pridėti į kolekciją:"
+
+#: templates/wagtailimages/multiple/add.html:58
+msgid ""
+"Upload successful. Please update this image with a more appropriate title, "
+"if necessary. You may also delete the image completely if the upload wasn't "
+"required."
+msgstr "Įkelti pavyko. Prašome atnaujinti šį paveiksliuką su tinkamesniu pavadinimu, jei reikia. Jūs taip pat galite ištrinti paveiksliuką, jei įkėlimas nebuvo būtinas."
+
+#: templates/wagtailimages/multiple/add.html:59
+msgid "Sorry, upload failed."
+msgstr "Atsiprašome, įkelti nepavyko."
+
+#: templates/wagtailimages/multiple/add.html:61
+msgid "Server Error"
+msgstr "Serverio klaida"
+
+#: templates/wagtailimages/multiple/add.html:62
+msgid "Report this error to your webmaster with the following information:"
+msgstr "Praneškite apie šią klaidą savo tinklalapio administratoriui su sekančia informacija:"
+
+#: templates/wagtailimages/multiple/add.html:65
+msgid "Image updated."
+msgstr "Paveiksliukai atnaujinti."
+
+#: templates/wagtailimages/multiple/edit_form.html:14
+msgid "Update"
+msgstr "Atnaujinti"
+
+#: templates/wagtailimages/multiple/edit_form.html:15 views/images.py:139
+msgid "Delete"
+msgstr "Ištrinti"
+
+#: templates/wagtailimages/permissions/includes/image_permissions_formset.html:4
+msgid "Image permissions"
+msgstr "Paveiksliuko leidimai"
+
+#: templates/wagtailimages/permissions/includes/image_permissions_formset.html:5
+msgid "Add an image permission"
+msgstr "Pridėti paveiksliuko leidimą"
+
+#: views/images.py:41 views/images.py:47
+msgid "Search images"
+msgstr "Ieškoti paveiksliukų"
+
+#: views/images.py:117
+#, python-brace-format
+msgid "Image '{0}' updated."
+msgstr "Paveiksliukas '{0}' atnaujintas"
+
+#: views/images.py:118
+msgid "Edit again"
+msgstr "Vėl redaguoti"
+
+#: views/images.py:122
+msgid "The image could not be saved due to errors."
+msgstr "Paveiksliukas negalėjo būti išsaugotas dėl klaidų."
+
+#: views/images.py:137
+msgid ""
+"The source image file could not be found. Please change the source or delete"
+" the image."
+msgstr "Paveiksliuko šaltinio byla nebuvo rasta. Prašome pakeisti šaltinį arba ištrinti paveiksliuką."
+
+#: views/images.py:232
+#, python-brace-format
+msgid "Image '{0}' deleted."
+msgstr "Paveiksliukas '{0}' ištrintas."
+
+#: views/images.py:257
+#, python-brace-format
+msgid "Image '{0}' added."
+msgstr "Paveiksliukas '{0}' pridėtas."
+
+#: views/images.py:262
+msgid "The image could not be created due to errors."
+msgstr "Paveiksliukas negalėjo būti sukurtas dėl klaidų."
+
+#: wagtail_hooks.py:132
+#, python-format
+msgid "%(count)s image"
+msgid_plural "%(count)s images"
+msgstr[0] "%(count)s paveiksliukas"
+msgstr[1] "%(count)s paveiksliukai"
+msgstr[2] "%(count)s paveiksliukų"
+
+#: widgets.py:14
+msgid "Choose another image"
+msgstr "Pasirinkti kitą paveiksliuką"
+
+#: widgets.py:15
+msgid "Edit this image"
+msgstr "Redaguoti šį paveiksliuką"

@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Matas Dailyda <matas@dailyda.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Wagtail\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-06 12:33+0000\n"
+"PO-Revision-Date: 2017-03-01 10:17+0000\n"
+"Last-Translator: Matas Dailyda <matas@dailyda.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/torchbox/wagtail/language/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: templates/wagtailstyleguide/base.html:12
+#: templates/wagtailstyleguide/base.html:16 wagtail_hooks.py:23
+msgid "Styleguide"
+msgstr "Stiliaus gidas"
+
+#: templates/wagtailstyleguide/base.html:519
+msgid "Save"
+msgstr "Išsaugoti"
+
+#: templates/wagtailstyleguide/base.html:519
+msgid "Delete image"
+msgstr "Ištrinti paveiksliuką"
+
+#: views.py:55
+msgid "Search something"
+msgstr "Ko nors ieškoti"
+
+#: views.py:59
+msgid "Success message"
+msgstr "Sėkmės žinutė "
+
+#: views.py:60 views.py:64 views.py:68
+msgid "View live"
+msgstr "Žiūrėti veikiantį"
+
+#: views.py:61 views.py:65 views.py:69
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: views.py:63
+msgid "Warning message"
+msgstr "Perspėjimo žinutė"
+
+#: views.py:67
+msgid "Error message"
+msgstr "Klaidos žinutė"
