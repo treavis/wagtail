@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Wagtail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-06 12:33+0000\n"
-"PO-Revision-Date: 2017-03-01 15:23+0000\n"
+"PO-Revision-Date: 2017-03-21 14:41+0000\n"
 "Last-Translator: Matas Dailyda <matas@dailyda.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/torchbox/wagtail/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -249,7 +249,7 @@ msgstr "Rolės"
 #: templates/wagtailusers/users/index.html:17 wagtail_hooks.py:47
 #: wagtail_hooks.py:97
 msgid "Users"
-msgstr "Vartotojas"
+msgstr "Vartotojai"
 
 #: templates/wagtailusers/users/index.html:18
 msgid "Add a user"
