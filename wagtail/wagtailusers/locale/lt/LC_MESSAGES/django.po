@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Wagtail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-06 12:33+0000\n"
-"PO-Revision-Date: 2017-03-21 14:41+0000\n"
+"PO-Revision-Date: 2017-03-21 15:43+0000\n"
 "Last-Translator: Matas Dailyda <matas@dailyda.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/torchbox/wagtail/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -261,7 +261,7 @@ msgstr "Vartotojo vardas"
 
 #: templates/wagtailusers/users/list.html:22
 msgid "Level"
-msgstr "Lygs"
+msgstr "Lygis"
 
 #: templates/wagtailusers/users/list.html:23
 msgid "Status"
